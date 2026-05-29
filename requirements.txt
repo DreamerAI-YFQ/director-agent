@@ -4,7 +4,7 @@
 
 # API 调用
 anthropic==0.104.1          # Claude SDK（通过DeepSeek代理）
-claude-agent-sdk==0.2.87    # Claude Code/Agent SDK runtime（可选切换）
+claude-agent-sdk==0.2.87    # Claude Code/Agent SDK runtime（默认执行引擎）
 google-genai==2.6.0         # Gemini SDK（AI Studio）
 openai==2.36.0              # OpenAI兼容客户端（QwenVL百炼）
 

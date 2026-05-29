@@ -13,7 +13,7 @@
 - Novel 标签闭环：候选标签捕获、Review 队列、决策后进入词典/知识库。
 - Prompt 治理：Prompt 版本、输出 schema、element_id 引用追踪。
 - 成本与任务后台：Pipeline 阶段、成本记录、引用追踪、审阅、历史会话。
-- 可插拔 Agent Runtime：默认 Anthropic Messages SDK；可选 Claude Agent SDK runtime。
+- 可插拔 Agent Runtime：默认 Claude Agent SDK runtime；Legacy Anthropic runtime 作为 fallback。
 
 ## 技术栈
 
@@ -113,18 +113,18 @@ python -m venv venv
 
 [http://127.0.0.1:3000](http://127.0.0.1:3000)
 
-## Agent Runtime 切换
+## Agent Runtime
 
-默认使用 legacy runtime：
+默认使用 Claude Agent SDK runtime：
 
 ```env
-AGENT_RUNTIME=legacy
+AGENT_RUNTIME=claude_agent
 ```
 
-切换 Claude Agent SDK runtime：
+如果本地 SDK 或认证环境不可用，系统会自动 fallback 到 legacy runtime。也可以手动切换：
 
 ```powershell
-$env:AGENT_RUNTIME="claude_agent"
+$env:AGENT_RUNTIME="legacy"
 .\venv\Scripts\python.exe main.py
 ```
 

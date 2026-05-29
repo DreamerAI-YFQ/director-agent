@@ -586,7 +586,7 @@ def create_agent_runtime(
     base_url: str | None = None,
     client: Any = None,
 ) -> AgentRuntime:
-    mode = os.getenv("AGENT_RUNTIME", "legacy").strip().lower()
+    mode = os.getenv("AGENT_RUNTIME", "claude_agent").strip().lower()
 
     if mode in {"claude_agent", "claude-agent", "claude_code", "claude-code"}:
         try:

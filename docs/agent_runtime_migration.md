@@ -6,33 +6,32 @@
 
 ### Legacy Anthropic Runtime
 
-默认启用。
+作为 fallback 保留。
 
 - 位置：`agent/runtime.py::LegacyAnthropicRuntime`
 - SDK：`anthropic.AsyncAnthropic`
 - 职责：保留原有 `messages.stream` + tool use 循环。
-- 适合：当前可稳定演示、DeepSeek Anthropic 兼容代理。
+- 适合：SDK 或认证环境不可用时兜底，以及 Anthropic-compatible 代理演示。
 
 ### Claude Agent SDK Runtime
 
-通过环境变量启用。
+默认启用。
 
 - 位置：`agent/runtime.py::ClaudeAgentSDKRuntime`
 - SDK：`claude-agent-sdk`
 - 职责：使用 Claude Agent SDK 执行 agent loop，自定义业务工具通过 SDK MCP server 暴露。
 - 业务边界：Skills 状态机、进度、会话持久化、Pipeline 结果校验仍由 `DirectorAgent` 和项目代码控制。
 
-启用方式：
+默认配置：
 
-```powershell
-$env:AGENT_RUNTIME="claude_agent"
-.\venv\Scripts\python.exe main.py
+```env
+AGENT_RUNTIME=claude_agent
 ```
 
-回退方式：
+手动切换到 legacy：
 
 ```powershell
-Remove-Item Env:\AGENT_RUNTIME
+$env:AGENT_RUNTIME="legacy"
 .\venv\Scripts\python.exe main.py
 ```
 

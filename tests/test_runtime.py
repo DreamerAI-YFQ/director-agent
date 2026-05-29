@@ -13,8 +13,21 @@ class FakeClient:
     pass
 
 
-def test_runtime_defaults_to_legacy(monkeypatch):
+def test_runtime_defaults_to_claude_agent_when_available(monkeypatch):
     monkeypatch.delenv("AGENT_RUNTIME", raising=False)
+    monkeypatch.setattr(ClaudeAgentSDKRuntime, "ensure_available", staticmethod(lambda: None))
+
+    runtime = create_agent_runtime(
+        model="fake-model",
+        session_id="sess_test",
+        client=FakeClient(),
+    )
+
+    assert isinstance(runtime, ClaudeAgentSDKRuntime)
+
+
+def test_runtime_uses_legacy_when_explicitly_selected(monkeypatch):
+    monkeypatch.setenv("AGENT_RUNTIME", "legacy")
 
     runtime = create_agent_runtime(
         model="fake-model",
