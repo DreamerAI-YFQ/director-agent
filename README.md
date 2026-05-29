@@ -1,14 +1,14 @@
 # AI Director Agent
 
-面向海外 DTC 保健品品牌 TikTok 编导团队的 AI 编导 Agent MVP。
+面向内容生产团队的 AI 编导 Agent MVP。
 
-项目目标不是做一个单纯聊天机器人，而是搭建一个“知识库驱动创作 + 热点视频学习 + 内容质量反馈”的编导知识资产平台。
+项目目标不是做一个单纯聊天机器人，而是搭建一个“知识库驱动创作 + 外部内容学习 + 内容质量反馈”的编导知识资产平台。
 
 ## 核心能力
 
 - 对话式内容创作：需求理解、策略、钩子、脚本、文生图 Prompt、图生视频 Prompt、真人实拍、AB 变体、自检。
-- RAG 知识库：产品资料、钩子卡片、爆款视频案例、脚本模板、编导经验、投放数据。
-- P0-P5 视频学习 Pipeline：元数据、视觉、文案音频、结构叙事、合规效果、结构化入库。
+- RAG 知识库：业务资料、钩子卡片、内容案例、脚本模板、编导经验、效果数据。
+- P0-P5 内容学习 Pipeline：元数据、视觉、文案音频、结构叙事、合规效果、结构化入库。
 - 词典管理：9 套词典、版本历史、Diff、合规检查。
 - Novel 标签闭环：候选标签捕获、Review 队列、决策后进入词典/知识库。
 - Prompt 治理：Prompt 版本、输出 schema、element_id 引用追踪。
@@ -21,7 +21,7 @@
 - Agent：Anthropic SDK / Claude Agent SDK, 自研 Skills 状态机, 自研 P0-P5 Pipeline
 - Database：PostgreSQL + pgvector
 - Embedding：DashScope OpenAI-compatible API
-- Video/LLM Providers：Claude-compatible, Gemini, QwenVL
+- Multimodal/LLM Providers：Claude-compatible, Gemini, QwenVL
 - Frontend：原生 HTML/CSS/JavaScript
 - DevOps：Docker Compose, Adminer
 
@@ -150,7 +150,7 @@ $env:AGENT_RUNTIME="claude_agent"
 - `sessions` / `messages`：对话会话与消息
 - `compliance_checks`：合规检查记录
 - `feedback`：编导反馈与效果反馈
-- `staged_videos`：第三方视频接入 staging 表
+- `staged_videos`：第三方内容接入 staging 表
 
 ## Prompt 位置
 
