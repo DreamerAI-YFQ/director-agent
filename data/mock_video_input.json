@@ -1,0 +1,29 @@
+{
+  "video_id": "tiktok_7293847561029384",
+  "url": "https://www.tiktok.com/@brand/video/7293847561029384",
+  "description": "模拟测试视频：Ashwagandha压力缓解产品测评",
+  "mock_mode": true,
+  "mock_description": "这是一个30秒的TikTok短视频，展示一位年轻职场女性使用Ashwagandha缓解压力的过程。视频开头用'你知道吗'钩子，中间展示产品使用场景，结尾CTA引导购买。画面中有'on screen text'文字覆盖，背景音乐为轻快的lo-fi风格。",
+  "frames": [
+    {"frame_index": 0, "timestamp": "00:00", "description": "女性在办公室揉太阳穴，表情疲惫，画面顶部文字：'你知道吗？慢性疲劳可能是身体在求救'"},
+    {"frame_index": 1, "timestamp": "00:05", "description": "切换到产品特写，Ashwagandha胶囊瓶子，干净白色背景，瓶身标签清晰"},
+    {"frame_index": 2, "timestamp": "00:10", "description": "女性在厨房倒水吞服胶囊，画面底部小字disclaimer：'These statements have not been evaluated by the FDA'"},
+    {"frame_index": 3, "timestamp": "00:18", "description": "女性在瑜伽垫上冥想，画面温馨，暖色调，底部文字：'2周后我感觉焕然一新'"},
+    {"frame_index": 4, "timestamp": "00:25", "description": "产品展示+价格标签+折扣码，文字：'限时8折 用码RELAX20'", "cta_frame": true}
+  ],
+  "audio": {
+    "narration": "你知道吗？慢性疲劳可能是身体在求救。我以前也总觉得累，直到发现了这个——Ashwagandha。这是源自古印度的适应原草本，科学研究支持它帮助身体应对压力。每天一粒，两周后我感觉焕然一新。现在限时8折，用我的码RELAX20，赶紧试试吧！",
+    "bgm_style": "lo-fi chill",
+    "sfx": ["ding sound at product reveal", "whoosh transition"]
+  },
+  "metadata": {
+    "duration_sec": 30,
+    "platform": "TikTok",
+    "language": "zh",
+    "aspect_ratio": "9:16",
+    "creator": "@wellness_journey",
+    "likes": 12500,
+    "comments": 342,
+    "shares": 891
+  }
+}

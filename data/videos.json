@@ -1,0 +1,110 @@
+[
+  {
+    "id": "vid_001",
+    "title": "睡前3秒魔法！这个让我终于睡了个好觉",
+    "brand": "竞品A - 褪黑素软糖",
+    "category": "睡眠健康",
+    "hook_type": "场景代入型",
+    "structure_type": "前后对比型",
+    "duration": "38s",
+    "views": "2.3M",
+    "likes": "180K",
+    "shares": "12K",
+    "analysis": {
+      "hook": "睡前3秒魔法 — 制造好奇心+暗示简单操作",
+      "retention_curve": "前3秒留存92%，8秒处71%，结尾45%",
+      "key_moments": [
+        "0-3s: 黑暗卧室，翻来覆去的画面+钩子文案",
+        "3-10s: 展示产品，含服动作特写",
+        "10-25s: 时间流逝快剪，从失眠到安睡",
+        "25-35s: 清晨醒来精神好的对比",
+        "35-38s: CTA - 评论区有优惠"
+      ],
+      "visual_style": "暗转亮的光线变化，真实卧室场景",
+      "music": "从焦虑白噪音渐变为轻柔钢琴"
+    },
+    "source": "TikTok @sleepwell_official",
+    "analyzed_at": "2025-12-15"
+  },
+  {
+    "id": "vid_002",
+    "title": "医生不会告诉你的肠道秘密",
+    "brand": "竞品B - 益生菌粉",
+    "category": "消化健康",
+    "hook_type": "秘密揭示型",
+    "structure_type": "专家科普型",
+    "duration": "45s",
+    "views": "5.1M",
+    "likes": "420K",
+    "shares": "35K",
+    "analysis": {
+      "hook": "医生不会告诉你 — 权威背书+信息差制造紧迫感",
+      "retention_curve": "前3秒留存95%，15秒处68%，结尾38%",
+      "key_moments": [
+        "0-3s: 穿白大褂的人直视镜头说钩子",
+        "3-15s: 动画演示肠道菌群失衡",
+        "15-30s: 展示产品+成分解读",
+        "30-40s: 28天前后对比数据图",
+        "40-45s: CTA - 限时买一送一"
+      ],
+      "visual_style": "医学动画+真人出镜，专业感",
+      "music": "紧张感背景音转为希望感旋律"
+    },
+    "source": "TikTok @guthealth_doc",
+    "analyzed_at": "2025-12-20"
+  },
+  {
+    "id": "vid_003",
+    "title": "28天胶原蛋白挑战 Day1 vs Day28",
+    "brand": "竞品C - 胶原蛋白饮",
+    "category": "美容抗衰",
+    "hook_type": "前后对比型",
+    "structure_type": "日Vlog型",
+    "duration": "52s",
+    "views": "8.7M",
+    "likes": "690K",
+    "shares": "52K",
+    "analysis": {
+      "hook": "28天挑战 — 制造系列感+期待感",
+      "retention_curve": "前3秒留存88%，20秒处55%，结尾42%",
+      "key_moments": [
+        "0-5s: Day1素颜怼脸拍+Day28对比闪现",
+        "5-15s: 每天喝胶原蛋白的快剪",
+        "15-30s: 关键节点变化（Day7/Day14/Day21）",
+        "30-45s: Day28完整对比+皮肤检测仪数据",
+        "45-52s: 真实评价+CTA"
+      ],
+      "visual_style": "自然光素颜拍摄，真实感强",
+      "music": "轻快日记感BGM"
+    },
+    "source": "TikTok @glowwithjess",
+    "analyzed_at": "2026-01-05"
+  },
+  {
+    "id": "vid_004",
+    "title": "打工人续命神器！中午不犯困的秘密",
+    "brand": "竞品D - B族维生素",
+    "category": "能量代谢",
+    "hook_type": "身份认同型",
+    "structure_type": "问题-解决方案型",
+    "duration": "35s",
+    "views": "1.8M",
+    "likes": "150K",
+    "shares": "22K",
+    "analysis": {
+      "hook": "打工人续命神器 — 精准圈层+戏谑共鸣",
+      "retention_curve": "前3秒留存85%，10秒处62%，结尾40%",
+      "key_moments": [
+        "0-3s: 办公室下午犯困的真实画面",
+        "3-10s: '你是不是也这样' 共鸣放大",
+        "10-20s: 产品展示+15分钟见效演示",
+        "20-30s: 对比咖啡/能量饮料的劣势",
+        "30-35s: CTA - 新人首单优惠"
+      ],
+      "visual_style": "办公室实拍，快节奏剪辑",
+      "music": "节奏感强的流行曲"
+    },
+    "source": "TikTok @energyhacks",
+    "analyzed_at": "2026-01-10"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "ing_001",
+    "name": "Ashwagandha",
+    "chinese": "南非醉茄/印度人参",
+    "category": "适应原草本",
+    "key_benefits": ["帮助管理日常压力", "支持健康睡眠", "促进精力恢复"],
+    "compliant_claims": ["supports stress management", "promotes healthy sleep patterns", "helps maintain energy levels"],
+    "common_dosage": "300-600mg KSM-66®",
+    "target_audience": ["高压职场人", "睡眠困扰者", "健身恢复期"],
+    "trending_score": 9.2,
+    "popular_formulations": ["KSM-66®", "Sensoril®"]
+  },
+  {
+    "id": "ing_002",
+    "name": "Turmeric/Curcumin",
+    "chinese": "姜黄/姜黄素",
+    "category": "抗炎草本",
+    "key_benefits": ["支持关节健康", "帮助维持健康炎症反应", "抗氧化支持"],
+    "compliant_claims": ["supports joint health", "helps maintain healthy inflammatory response", "provides antioxidant support"],
+    "common_dosage": "500-1000mg (with piperine)",
+    "target_audience": ["关节保养人群", "运动恢复", "中老年"],
+    "trending_score": 9.5,
+    "popular_formulations": ["Curcumin C3 Complex®", "BCM-95®"]
+  },
+  {
+    "id": "ing_003",
+    "name": "Vitamin D3",
+    "chinese": "维生素D3",
+    "category": "脂溶性维生素",
+    "key_benefits": ["支持骨骼健康", "促进钙吸收", "支持免疫功能"],
+    "compliant_claims": ["supports bone health", "promotes calcium absorption", "supports immune function"],
+    "common_dosage": "2000-5000 IU",
+    "target_audience": ["室内工作者", "日照不足人群", "中老年"],
+    "trending_score": 9.8,
+    "popular_formulations": ["Cholecalciferol", "with K2 (MK-7)"]
+  },
+  {
+    "id": "ing_004",
+    "name": "Omega-3/EPA/DHA",
+    "chinese": "Omega-3鱼油",
+    "category": "必需脂肪酸",
+    "key_benefits": ["支持心血管健康", "促进大脑功能", "帮助维持健康胆固醇"],
+    "compliant_claims": ["supports heart health", "promotes brain function", "helps maintain healthy cholesterol levels"],
+    "common_dosage": "1000-2000mg EPA+DHA",
+    "target_audience": ["心血管关注人群", "用脑过度", "中老年"],
+    "trending_score": 9.3,
+    "popular_formulations": ["TG form", "rTG form", "Krill Oil"]
+  },
+  {
+    "id": "ing_005",
+    "name": "Magnesium",
+    "chinese": "镁",
+    "category": "矿物质",
+    "key_benefits": ["支持肌肉放松", "促进健康睡眠", "帮助缓解日常压力"],
+    "compliant_claims": ["supports muscle relaxation", "promotes healthy sleep", "helps with stress management"],
+    "common_dosage": "200-400mg",
+    "target_audience": ["睡眠困扰者", "运动人群", "压力人群"],
+    "trending_score": 9.6,
+    "popular_formulations": ["Magnesium Glycinate", "Magnesium Threonate", "Magnesium Citrate"]
+  },
+  {
+    "id": "ing_006",
+    "name": "Probiotics",
+    "chinese": "益生菌",
+    "category": "微生物组",
+    "key_benefits": ["支持消化健康", "促进营养吸收", "支持免疫防线"],
+    "compliant_claims": ["supports digestive health", "promotes nutrient absorption", "supports immune defense"],
+    "common_dosage": "10-50 Billion CFU",
+    "target_audience": ["消化不适人群", "免疫力关注", "全家适用"],
+    "trending_score": 9.4,
+    "popular_formulations": ["Lactobacillus + Bifidobacterium blends", "Saccharomyces boulardii"]
+  },
+  {
+    "id": "ing_007",
+    "name": "Collagen Peptides",
+    "chinese": "胶原蛋白肽",
+    "category": "蛋白肽",
+    "key_benefits": ["支持皮肤弹性", "促进关节灵活", "帮助头发指甲健康"],
+    "compliant_claims": ["supports skin elasticity", "promotes joint flexibility", "supports hair and nail health"],
+    "common_dosage": "10-20g",
+    "target_audience": ["美容关注女性", "运动人群", "抗衰关注"],
+    "trending_score": 9.7,
+    "popular_formulations": ["Type I & III", "Marine Collagen", "Grass-fed Bovine"]
+  },
+  {
+    "id": "ing_008",
+    "name": "Maca Root",
+    "chinese": "玛卡根",
+    "category": "超级食物",
+    "key_benefits": ["支持精力活力", "帮助维持耐力", "支持荷尔蒙平衡"],
+    "compliant_claims": ["supports energy and vitality", "helps maintain stamina", "supports hormonal balance"],
+    "common_dosage": "1500-3000mg",
+    "target_audience": ["精力不足", "运动人群", "30+职场人"],
+    "trending_score": 8.5,
+    "popular_formulations": ["Gelatinized Maca", "Red/Black Maca"]
+  },
+  {
+    "id": "ing_009",
+    "name": "Elderberry",
+    "chinese": "接骨木莓",
+    "category": "免疫支持草本",
+    "key_benefits": ["支持免疫防线", "提供抗氧化支持", "帮助维持呼吸道健康"],
+    "compliant_claims": ["supports immune defense", "provides antioxidant support", "supports respiratory health"],
+    "common_dosage": "300-600mg extract",
+    "target_audience": ["免疫关注", "季节性保养", "全家适用"],
+    "trending_score": 8.8,
+    "popular_formulations": ["Sambucus nigra extract", "with Vitamin C + Zinc"]
+  },
+  {
+    "id": "ing_010",
+    "name": "L-Theanine",
+    "chinese": "茶氨酸",
+    "category": "氨基酸",
+    "key_benefits": ["促进放松不犯困", "帮助专注集中", "支持健康睡眠"],
+    "compliant_claims": ["promotes relaxation without drowsiness", "helps with focus and concentration", "supports healthy sleep"],
+    "common_dosage": "100-200mg",
+    "target_audience": ["需要专注的学生/职场人", "咖啡搭配", "压力人群"],
+    "trending_score": 8.7,
+    "popular_formulations": ["Suntheanine®", "with Caffeine (smart stack)"]
+  }
+]

@@ -1,0 +1,653 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-28",
+  "description": "AI编导Agent Prompt版本注册表，管理所有Prompt的版本、Schema、依赖关系",
+  "active_version": "v1",
+  "prompts": {
+    "system": {
+      "file": "system.md",
+      "version": "1.0.0",
+      "schema_version": "1.0",
+      "description": "系统人格Prompt，定义Agent身份和基本规则",
+      "dependencies": [],
+      "output_schema": {
+        "type": "object",
+        "fields": [
+          "role_definition",
+          "capabilities",
+          "rules",
+          "conversation_style"
+        ]
+      },
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-05-28",
+          "change": "初始版本，定义Agent身份、能力、工作规则"
+        }
+      ]
+    },
+    "skill_需求理解": {
+      "file": "skill_需求理解.md",
+      "version": "1.0.0",
+      "schema_version": "1.0",
+      "description": "需求理解Skill，引导编导明确产品/人群/目标",
+      "dependencies": [],
+      "output_schema": {
+        "type": "object",
+        "fields": [
+          "product_id",
+          "target_audience",
+          "video_type",
+          "key_message",
+          "constraints"
+        ],
+        "element_id_prefix": "NEED"
+      },
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-05-28",
+          "change": "初始版本"
+        }
+      ]
+    },
+    "skill_策略思考": {
+      "file": "skill_策略思考.md",
+      "version": "1.0.0",
+      "schema_version": "1.0",
+      "description": "策略思考Skill，基于产品USP和投放数据选择内容策略",
+      "dependencies": [
+        "skill_需求理解"
+      ],
+      "output_schema": {
+        "type": "object",
+        "fields": [
+          "strategy_type",
+          "angle",
+          "tone",
+          "key_selling_points",
+          "competitive_advantage"
+        ],
+        "element_id_prefix": "STRAT"
+      },
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-05-28",
+          "change": "初始版本"
+        }
+      ]
+    },
+    "skill_钩子设计": {
+      "file": "skill_钩子设计.md",
+      "version": "1.0.0",
+      "schema_version": "1.0",
+      "description": "钩子设计Skill，设计3秒抓住注意力的开头",
+      "dependencies": [
+        "skill_策略思考"
+      ],
+      "output_schema": {
+        "type": "object",
+        "fields": [
+          "hook_type",
+          "hook_text",
+          "visual_description",
+          "estimated_retention_rate"
+        ],
+        "element_id_prefix": "HOOK"
+      },
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-05-28",
+          "change": "初始版本"
+        }
+      ]
+    },
+    "skill_脚本骨架": {
+      "file": "skill_脚本骨架.md",
+      "version": "1.0.0",
+      "schema_version": "1.0",
+      "description": "脚本骨架Skill，确定脚本结构和节奏",
+      "dependencies": [
+        "skill_钩子设计",
+        "skill_策略思考"
+      ],
+      "output_schema": {
+        "type": "object",
+        "fields": [
+          "structure_type",
+          "sections",
+          "timing",
+          "section_elements"
+        ],
+        "element_id_prefix": "SKEL"
+      },
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-05-28",
+          "change": "初始版本"
+        }
+      ]
+    },
+    "skill_文案撰写": {
+      "file": "skill_文案撰写.md",
+      "version": "1.0.0",
+      "schema_version": "1.0",
+      "description": "文案撰写Skill，基于骨架生成完整文案",
+      "dependencies": [
+        "skill_脚本骨架",
+        "skill_需求理解"
+      ],
+      "output_schema": {
+        "type": "object",
+        "fields": [
+          "script_text",
+          "narration",
+          "subtitles",
+          "word_count",
+          "duration_estimate"
+        ],
+        "element_id_prefix": "COPY"
+      },
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-05-28",
+          "change": "初始版本"
+        }
+      ]
+    },
+    "skill_文生图": {
+      "file": "skill_文生图.md",
+      "version": "1.0.0",
+      "schema_version": "1.0",
+      "description": "文生图Skill，生成Midjourney/DALL-E兼容的图片提示词",
+      "dependencies": [
+        "skill_文案撰写"
+      ],
+      "output_schema": {
+        "type": "object",
+        "fields": [
+          "image_prompts",
+          "style",
+          "aspect_ratio",
+          "scene_references"
+        ],
+        "element_id_prefix": "IMG"
+      },
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-05-28",
+          "change": "初始版本"
+        }
+      ]
+    },
+    "skill_图生视频": {
+      "file": "skill_图生视频.md",
+      "version": "1.0.0",
+      "schema_version": "1.0",
+      "description": "图生视频Skill，生成Runway/Kling兼容的视频提示词",
+      "dependencies": [
+        "skill_文生图"
+      ],
+      "output_schema": {
+        "type": "object",
+        "fields": [
+          "video_prompts",
+          "camera_movements",
+          "duration",
+          "transitions"
+        ],
+        "element_id_prefix": "VID"
+      },
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-05-28",
+          "change": "初始版本"
+        }
+      ]
+    },
+    "skill_真人实拍": {
+      "file": "skill_真人实拍.md",
+      "version": "1.0.0",
+      "schema_version": "1.0",
+      "description": "真人实拍Skill，输出详细的实拍指导方案",
+      "dependencies": [
+        "skill_文案撰写"
+      ],
+      "output_schema": {
+        "type": "object",
+        "fields": [
+          "scene_setup",
+          "actor_direction",
+          "props_list",
+          "camera_angles",
+          "lighting_notes"
+        ],
+        "element_id_prefix": "LIVE"
+      },
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-05-28",
+          "change": "初始版本"
+        }
+      ]
+    },
+    "skill_ab变体": {
+      "file": "skill_ab变体.md",
+      "version": "1.0.0",
+      "schema_version": "1.0",
+      "description": "A/B变体Skill，生成至少2个变体版本用于测试",
+      "dependencies": [
+        "skill_文案撰写",
+        "skill_钩子设计"
+      ],
+      "output_schema": {
+        "type": "object",
+        "fields": [
+          "variant_a",
+          "variant_b",
+          "variant_dimensions",
+          "test_hypothesis"
+        ],
+        "element_id_prefix": "AB"
+      },
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-05-28",
+          "change": "初始版本"
+        }
+      ]
+    },
+    "skill_自检": {
+      "file": "skill_自检.md",
+      "version": "1.0.0",
+      "schema_version": "1.0",
+      "description": "自检Skill，检查脚本的合规性、完整性、质量",
+      "dependencies": [
+        "skill_文案撰写",
+        "skill_文生图",
+        "skill_图生视频",
+        "skill_真人实拍",
+        "skill_ab变体"
+      ],
+      "output_schema": {
+        "type": "object",
+        "fields": [
+          "compliance_check",
+          "quality_score",
+          "issues_found",
+          "fix_suggestions"
+        ],
+        "element_id_prefix": "CHK"
+      },
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-05-28",
+          "change": "初始版本"
+        }
+      ]
+    },
+    "pipeline_P0_元数据识别": {
+      "file": "pipeline_P0_元数据识别.md",
+      "version": "1.0.0",
+      "schema_version": "1.0",
+      "description": "视频分析流水线P0：元数据提取、内容类型识别、产品识别、初始标签",
+      "dependencies": [],
+      "output_schema": {
+        "type": "object",
+        "fields": [
+          "video_id",
+          "duration",
+          "platform",
+          "language",
+          "content_type",
+          "product_brand",
+          "product_name",
+          "product_category",
+          "tags"
+        ],
+        "element_id_prefix": "META"
+      },
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-05-28",
+          "change": "初始版本，5维度结构化分析-元数据层"
+        }
+      ]
+    },
+    "pipeline_P1_视觉要素": {
+      "file": "pipeline_P1_视觉要素.md",
+      "version": "1.0.0",
+      "schema_version": "1.0",
+      "description": "视频分析流水线P1：场景、构图、色彩、文字覆盖、人物、产品展示",
+      "dependencies": [
+        "pipeline_P0_元数据识别"
+      ],
+      "output_schema": {
+        "type": "object",
+        "fields": [
+          "scenes",
+          "shot_composition",
+          "color_palette",
+          "on_screen_text",
+          "people",
+          "product_presentation"
+        ],
+        "element_id_prefix": "VIS"
+      },
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-05-28",
+          "change": "初始版本，视觉要素6维度分析"
+        }
+      ]
+    },
+    "pipeline_P2_文案音频": {
+      "file": "pipeline_P2_文案音频.md",
+      "version": "1.0.0",
+      "schema_version": "1.0",
+      "description": "视频分析流水线P2：语音转写、文案结构、话术技巧、功效声明、音频特征、CTA",
+      "dependencies": [
+        "pipeline_P0_元数据识别"
+      ],
+      "output_schema": {
+        "type": "object",
+        "fields": [
+          "transcription",
+          "script_structure",
+          "rhetoric_techniques",
+          "health_claims",
+          "audio_features",
+          "cta"
+        ],
+        "element_id_prefix": "AUD"
+      },
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-05-28",
+          "change": "初始版本，文案与音频6维度分析"
+        }
+      ]
+    },
+    "pipeline_P3_结构叙事": {
+      "file": "pipeline_P3_结构叙事.md",
+      "version": "1.0.0",
+      "schema_version": "1.0",
+      "description": "视频分析流水线P3：钩子分析、叙事弧、情绪曲线、节奏、结构模板、Novel标签捕获",
+      "dependencies": [
+        "pipeline_P0_元数据识别",
+        "pipeline_P1_视觉要素",
+        "pipeline_P2_文案音频"
+      ],
+      "output_schema": {
+        "type": "object",
+        "fields": [
+          "hook_analysis",
+          "narrative_arc",
+          "emotion_curve",
+          "rhythm",
+          "structure_template",
+          "novel_tags"
+        ],
+        "element_id_prefix": "STR"
+      },
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-05-28",
+          "change": "初始版本，叙事结构6维度+Novel标签捕获"
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-05-28",
+          "change": "test"
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-05-28",
+          "change": "测试升级到1.1.0"
+        }
+      ]
+    },
+    "pipeline_P4_合规效果": {
+      "file": "pipeline_P4_合规效果.md",
+      "version": "1.0.0",
+      "schema_version": "1.0",
+      "description": "视频分析流水线P4：FDA/FTC合规审查、CTA合规、品牌契合度、效果预测、交叉验证",
+      "dependencies": [
+        "pipeline_P0_元数据识别",
+        "pipeline_P1_视觉要素",
+        "pipeline_P2_文案音频",
+        "pipeline_P3_结构叙事"
+      ],
+      "output_schema": {
+        "type": "object",
+        "fields": [
+          "compliance_risks",
+          "cta_compliance",
+          "brand_fit",
+          "performance_prediction",
+          "cross_model_validation"
+        ],
+        "element_id_prefix": "COMP"
+      },
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-05-28",
+          "change": "初始版本，合规审查5维度+双模型交叉验证"
+        }
+      ]
+    },
+    "pipeline_P5_结构化入库": {
+      "file": "pipeline_P5_结构化入库.md",
+      "version": "1.0.0",
+      "schema_version": "1.0",
+      "description": "视频分析流水线P5：数据融合、完整报告、RAG索引、Novel闭环、词典回标、质量自检",
+      "dependencies": [
+        "pipeline_P0_元数据识别",
+        "pipeline_P1_视觉要素",
+        "pipeline_P2_文案音频",
+        "pipeline_P3_结构叙事",
+        "pipeline_P4_合规效果"
+      ],
+      "output_schema": {
+        "type": "object",
+        "fields": [
+          "fusion_decisions",
+          "full_report",
+          "rag_index",
+          "novel_items",
+          "dictionary_snapshot",
+          "quality_check"
+        ],
+        "element_id_prefix": "RPT"
+      },
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-05-28",
+          "change": "初始版本，最终汇总+Novel闭环+RAG入库"
+        }
+      ]
+    }
+  },
+  "schema_compatibility_matrix": {
+    "_description": "Schema版本兼容性矩阵。key=旧版本, value=兼容的新版本列表。migrate_from字段说明自动迁移逻辑",
+    "1.0": {
+      "compatible_with": [
+        "1.0"
+      ],
+      "breaking_changes": [
+        "test"
+      ],
+      "migrate_from": {}
+    },
+    "1.1": {
+      "compatible_with": [],
+      "breaking_changes": [
+        "测试: schema版本变更"
+      ],
+      "migrate_from": {}
+    }
+  },
+  "cross_prompt_references": {
+    "_description": "跨Prompt引用关系。记录哪个Prompt的输出element_id被哪些下游Prompt引用",
+    "skill_需求理解": {
+      "output_elements": [
+        "NEED_*"
+      ],
+      "referenced_by": [
+        "skill_策略思考",
+        "skill_文案撰写",
+        "skill_自检"
+      ]
+    },
+    "skill_策略思考": {
+      "output_elements": [
+        "STRAT_*"
+      ],
+      "referenced_by": [
+        "skill_钩子设计",
+        "skill_脚本骨架",
+        "skill_ab变体"
+      ]
+    },
+    "skill_钩子设计": {
+      "output_elements": [
+        "HOOK_*"
+      ],
+      "referenced_by": [
+        "skill_脚本骨架",
+        "skill_ab变体",
+        "skill_自检"
+      ]
+    },
+    "skill_脚本骨架": {
+      "output_elements": [
+        "SKEL_*"
+      ],
+      "referenced_by": [
+        "skill_文案撰写"
+      ]
+    },
+    "skill_文案撰写": {
+      "output_elements": [
+        "COPY_*"
+      ],
+      "referenced_by": [
+        "skill_文生图",
+        "skill_图生视频",
+        "skill_真人实拍",
+        "skill_ab变体",
+        "skill_自检"
+      ]
+    },
+    "skill_文生图": {
+      "output_elements": [
+        "IMG_*"
+      ],
+      "referenced_by": [
+        "skill_图生视频",
+        "skill_自检"
+      ]
+    },
+    "skill_图生视频": {
+      "output_elements": [
+        "VID_*"
+      ],
+      "referenced_by": [
+        "skill_自检"
+      ]
+    },
+    "skill_真人实拍": {
+      "output_elements": [
+        "LIVE_*"
+      ],
+      "referenced_by": [
+        "skill_自检"
+      ]
+    },
+    "skill_ab变体": {
+      "output_elements": [
+        "AB_*"
+      ],
+      "referenced_by": [
+        "skill_自检"
+      ]
+    },
+    "skill_自检": {
+      "output_elements": [
+        "CHK_*"
+      ],
+      "referenced_by": []
+    },
+    "pipeline_P0_元数据识别": {
+      "output_elements": [
+        "META_*"
+      ],
+      "referenced_by": [
+        "pipeline_P1_视觉要素",
+        "pipeline_P2_文案音频",
+        "pipeline_P3_结构叙事",
+        "pipeline_P4_合规效果",
+        "pipeline_P5_结构化入库"
+      ]
+    },
+    "pipeline_P1_视觉要素": {
+      "output_elements": [
+        "VIS_*"
+      ],
+      "referenced_by": [
+        "pipeline_P3_结构叙事",
+        "pipeline_P4_合规效果",
+        "pipeline_P5_结构化入库"
+      ]
+    },
+    "pipeline_P2_文案音频": {
+      "output_elements": [
+        "AUD_*"
+      ],
+      "referenced_by": [
+        "pipeline_P3_结构叙事",
+        "pipeline_P4_合规效果",
+        "pipeline_P5_结构化入库"
+      ]
+    },
+    "pipeline_P3_结构叙事": {
+      "output_elements": [
+        "STR_*"
+      ],
+      "referenced_by": [
+        "pipeline_P4_合规效果",
+        "pipeline_P5_结构化入库"
+      ]
+    },
+    "pipeline_P4_合规效果": {
+      "output_elements": [
+        "COMP_*"
+      ],
+      "referenced_by": [
+        "pipeline_P5_结构化入库"
+      ]
+    },
+    "pipeline_P5_结构化入库": {
+      "output_elements": [
+        "RPT_*"
+      ],
+      "referenced_by": []
+    }
+  }
+}

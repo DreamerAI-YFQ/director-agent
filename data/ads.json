@@ -1,0 +1,78 @@
+[
+  {
+    "id": "ad_001",
+    "campaign": "ProBio Max 益生菌 - 12月投放",
+    "product_id": "prod_001",
+    "platform": "TikTok",
+    "date_range": "2025-12-01 ~ 2025-12-31",
+    "metrics": {
+      "spend": "$12,500",
+      "impressions": "1,250,000",
+      "clicks": "37,500",
+      "ctr": "3.0%",
+      "conversions": "1,875",
+      "cvr": "5.0%",
+      "cpa": "$6.67",
+      "roas": "4.2x"
+    },
+    "top_performing_creative": "前后对比型脚本，钩子为数据冲击型",
+    "insights": "数据型钩子CTR比问题型高0.8%；45秒版本ROAS优于30秒版本"
+  },
+  {
+    "id": "ad_002",
+    "campaign": "SleepWell 褪黑素 - 12月投放",
+    "product_id": "prod_002",
+    "platform": "TikTok",
+    "date_range": "2025-12-01 ~ 2025-12-31",
+    "metrics": {
+      "spend": "$8,200",
+      "impressions": "980,000",
+      "clicks": "29,400",
+      "ctr": "3.0%",
+      "conversions": "1,323",
+      "cvr": "4.5%",
+      "cpa": "$6.20",
+      "roas": "3.8x"
+    },
+    "top_performing_creative": "场景代入型脚本，钩子为'凌晨2点还睡不着'",
+    "insights": "场景代入型钩子在25-35岁女性中CTR达4.2%；日Vlog型脚本完播率最高但转化偏低"
+  },
+  {
+    "id": "ad_003",
+    "campaign": "GlowSkin 胶原蛋白 - 1月投放",
+    "product_id": "prod_003",
+    "platform": "TikTok",
+    "date_range": "2026-01-01 ~ 2026-01-31",
+    "metrics": {
+      "spend": "$15,000",
+      "impressions": "1,800,000",
+      "clicks": "54,000",
+      "ctr": "3.0%",
+      "conversions": "2,160",
+      "cvr": "4.0%",
+      "cpa": "$6.94",
+      "roas": "5.1x"
+    },
+    "top_performing_creative": "28天挑战Vlog型，钩子为前后对比闪现",
+    "insights": "系列化内容(挑战/打卡)的ROAS比单条高60%；素颜真实感比精修图转化好"
+  },
+  {
+    "id": "ad_004",
+    "campaign": "EnergyBoost B族维生素 - 1月投放",
+    "product_id": "prod_004",
+    "platform": "TikTok",
+    "date_range": "2026-01-01 ~ 2026-01-15",
+    "metrics": {
+      "spend": "$3,500",
+      "impressions": "420,000",
+      "clicks": "10,500",
+      "ctr": "2.5%",
+      "conversions": "420",
+      "cvr": "4.0%",
+      "cpa": "$8.33",
+      "roas": "2.8x"
+    },
+    "top_performing_creative": "问题-解决方案型，钩子为身份认同型'打工人续命'",
+    "insights": "B族维生素CTR偏低，但CVR稳定；'打工人'标签比'疲劳'标签点击率高1.2%"
+  }
+]

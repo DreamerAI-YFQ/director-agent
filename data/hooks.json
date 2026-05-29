@@ -1,0 +1,72 @@
+[
+  {
+    "id": "hook_001",
+    "type": "问题型",
+    "category": "痛点切入",
+    "template": "你是不是也{痛点}？",
+    "example": "你是不是也经常腹胀，吃完饭就难受？",
+    "best_for": ["消化健康", "睡眠健康"],
+    "avg_retention": "3.2s",
+    "source": "爆款视频分析"
+  },
+  {
+    "id": "hook_002",
+    "type": "反常识型",
+    "category": "认知颠覆",
+    "template": "所有人都觉得{常见认知}，但其实是{真相}",
+    "example": "所有人都觉得益生菌要冷藏才有效，但其实是包埋技术才关键",
+    "best_for": ["消化健康", "美容抗衰"],
+    "avg_retention": "4.1s",
+    "source": "爆款视频分析"
+  },
+  {
+    "id": "hook_003",
+    "type": "数据冲击型",
+    "category": "权威背书",
+    "template": "{数字}%的人不知道{事实}",
+    "example": "92%的人不知道，普通益生菌到你胃里就死了一半",
+    "best_for": ["消化健康", "能量代谢"],
+    "avg_retention": "3.8s",
+    "source": "爆款视频分析"
+  },
+  {
+    "id": "hook_004",
+    "type": "场景代入型",
+    "category": "共鸣唤醒",
+    "template": "凌晨{数字}点，你是不是还在{场景}",
+    "example": "凌晨2点，你是不是还在翻来覆去睡不着？",
+    "best_for": ["睡眠健康"],
+    "avg_retention": "3.5s",
+    "source": "爆款视频分析"
+  },
+  {
+    "id": "hook_005",
+    "type": "前后对比型",
+    "category": "效果展示",
+    "template": "用{产品}前 vs 用{产品}后",
+    "example": "用GlowSkin前：皮肤暗沉有细纹；28天后：同事问我是不是去做了医美",
+    "best_for": ["美容抗衰"],
+    "avg_retention": "4.5s",
+    "source": "爆款视频分析"
+  },
+  {
+    "id": "hook_006",
+    "type": "秘密揭示型",
+    "category": "好奇驱动",
+    "template": "我发现了{领域}的秘密，{悬念}",
+    "example": "我发现了皮肤科医生不说的秘密：胶原蛋白根本不用涂，要喝才行",
+    "best_for": ["美容抗衰", "消化健康"],
+    "avg_retention": "4.3s",
+    "source": "爆款视频分析"
+  },
+  {
+    "id": "hook_007",
+    "type": "身份认同型",
+    "category": "圈层定位",
+    "template": "如果你是{人群}，这条视频你一定要看完",
+    "example": "如果你是30+还在熬夜的打工人，这条视频你一定要看完",
+    "best_for": ["睡眠健康", "能量代谢"],
+    "avg_retention": "3.0s",
+    "source": "爆款视频分析"
+  }
+]

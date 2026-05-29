@@ -1,0 +1,134 @@
+[
+  {
+    "id": "hook_w_001",
+    "word": "你知道吗",
+    "english": "Did you know",
+    "type": "知识悬念型",
+    "emotion": "好奇",
+    "usage": "开头制造信息差，引发好奇",
+    "example": "你知道吗？90%的人维生素D都不够",
+    "effectiveness": 8.2,
+    "best_for": ["知识科普", "成分介绍", "健康提醒"]
+  },
+  {
+    "id": "hook_w_002",
+    "word": "我以前也...",
+    "english": "I used to...",
+    "type": "共鸣型",
+    "emotion": "认同",
+    "usage": "建立共情，降低防御",
+    "example": "我以前也觉得保健品是智商税，直到...",
+    "effectiveness": 9.1,
+    "best_for": ["口碑分享", "转变故事", "用户见证"]
+  },
+  {
+    "id": "hook_w_003",
+    "word": "停！",
+    "english": "Stop!",
+    "type": "打断型",
+    "emotion": "紧迫",
+    "usage": "瞬间打断刷屏惯性",
+    "example": "停！如果你正在吃这款维生素，先看完这个",
+    "effectiveness": 8.8,
+    "best_for": ["纠错类", "避坑类", "对比类"]
+  },
+  {
+    "id": "hook_w_004",
+    "word": "3个信号",
+    "english": "3 signs",
+    "type": "列表悬念型",
+    "emotion": "自查",
+    "usage": "引导用户对号入座",
+    "example": "3个信号说明你的身体在向你求救",
+    "effectiveness": 9.3,
+    "best_for": ["症状类", "自查类", "健康提醒"]
+  },
+  {
+    "id": "hook_w_005",
+    "word": "医生说",
+    "english": "Doctors say / My doctor told me",
+    "type": "权威型",
+    "emotion": "信任",
+    "usage": "借用专业权威建立可信度",
+    "example": "我的医生说，这个成分比维生素C还重要",
+    "effectiveness": 8.5,
+    "best_for": ["专业科普", "新品介绍", "功效说明"]
+  },
+  {
+    "id": "hook_w_006",
+    "word": "等等",
+    "english": "Wait for it",
+    "type": "期待型",
+    "emotion": "期待",
+    "usage": "制造期待，延长观看时间",
+    "example": "这个方法看起来很普通，等等...看到最后你就懂了",
+    "effectiveness": 8.0,
+    "best_for": ["产品展示", "效果对比", "教程类"]
+  },
+  {
+    "id": "hook_w_007",
+    "word": "真的假的",
+    "english": "Is this real?",
+    "type": "质疑型",
+    "emotion": "震惊",
+    "usage": "用反直觉信息打破认知",
+    "example": "真的假的？你每天喝的水可能不够？",
+    "effectiveness": 8.6,
+    "best_for": ["冷知识", "认知翻转", "科普类"]
+  },
+  {
+    "id": "hook_w_008",
+    "word": "秘密",
+    "english": "Secret",
+    "type": "窥探型",
+    "emotion": "好奇",
+    "usage": "激发窥探欲",
+    "example": "韩国女生皮肤好的秘密，竟然不是护肤品",
+    "effectiveness": 8.9,
+    "best_for": ["美容类", "内调类", "文化对比"]
+  },
+  {
+    "id": "hook_w_009",
+    "word": "别再",
+    "english": "Stop doing / Don't",
+    "type": "警告型",
+    "emotion": "警醒",
+    "usage": "用反面教训引发重视",
+    "example": "别再空腹吃这些了，你的胃在哭泣",
+    "effectiveness": 8.4,
+    "best_for": ["纠错类", "习惯改善", "替代方案"]
+  },
+  {
+    "id": "hook_w_010",
+    "word": "一招",
+    "english": "One trick / One thing",
+    "type": "简化型",
+    "emotion": "轻松",
+    "usage": "降低行动门槛，简化认知",
+    "example": "只需要一招，让你的精力回到20岁",
+    "effectiveness": 8.7,
+    "best_for": ["技巧类", "产品推荐", "生活方式"]
+  },
+  {
+    "id": "hook_w_011",
+    "word": "真实测评",
+    "english": "Honest review",
+    "type": "透明型",
+    "emotion": "信任",
+    "usage": "以真实性吸引理性用户",
+    "example": "30天真实测评，这款益生菌到底值不值",
+    "effectiveness": 9.0,
+    "best_for": ["产品测评", "使用分享", "对比评测"]
+  },
+  {
+    "id": "hook_w_012",
+    "word": "前vs后",
+    "english": "Before vs After",
+    "type": "视觉冲击型",
+    "emotion": "震撼",
+    "usage": "用视觉对比制造冲击力",
+    "example": "补充镁30天，我的睡眠发生了什么变化",
+    "effectiveness": 9.4,
+    "best_for": ["效果展示", "使用见证", "变美/健康类"]
+  }
+]

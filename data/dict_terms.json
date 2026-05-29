@@ -1,0 +1,98 @@
+[
+  {
+    "id": "term_001",
+    "term": "膳食补充剂",
+    "english": "Dietary Supplement",
+    "definition": "旨在补充饮食的口服产品，含有维生素、矿物质、草药等成分，不能替代正常饮食",
+    "regulation_note": "FDA定义：不能声称诊断、治疗、治愈或预防任何疾病",
+    "usage_example": "作为日常膳食补充剂，帮助填补营养缺口"
+  },
+  {
+    "id": "term_002",
+    "term": "结构功能声明",
+    "english": "Structure/Function Claim",
+    "definition": "描述营养素或膳食成分对人体结构或功能影响的声明，无需FDA预审但需备案",
+    "regulation_note": "必须附带免责声明'This statement has not been evaluated by the FDA'",
+    "usage_example": "支持关节灵活度（结构功能声明）"
+  },
+  {
+    "id": "term_003",
+    "term": "健康声明",
+    "english": "Health Claim",
+    "definition": "描述食物/成分与疾病/健康条件之间关系的声明，需要FDA授权",
+    "regulation_note": "需要显著科学共识(SSA)或FDA授权的合格健康声明",
+    "usage_example": "钙和维生素D可降低骨质疏松风险（FDA授权健康声明）"
+  },
+  {
+    "id": "term_004",
+    "term": "生物利用度",
+    "english": "Bioavailability",
+    "definition": "营养成分被身体吸收和利用的程度",
+    "regulation_note": "可用于产品说明，但不得声称比竞品更高的生物利用度（除非有证据）",
+    "usage_example": "高生物利用度配方，帮助身体更好吸收"
+  },
+  {
+    "id": "term_005",
+    "term": "临床剂量",
+    "english": "Clinical Dose",
+    "definition": "基于临床研究确定的有效成分用量",
+    "regulation_note": "仅在有真实临床研究支撑时可使用",
+    "usage_example": "每份含临床研究的有效剂量"
+  },
+  {
+    "id": "term_006",
+    "term": "适应原",
+    "english": "Adaptogen",
+    "definition": "帮助身体适应压力和维持稳态的天然成分，如南非醉茄、灵芝等",
+    "regulation_note": "可使用但不得声称治疗压力相关疾病",
+    "usage_example": "含适应原草本，帮助你应对日常压力"
+  },
+  {
+    "id": "term_007",
+    "term": "益生菌CFU",
+    "english": "Colony Forming Unit",
+    "definition": "益生菌活菌数量的计量单位",
+    "regulation_note": "标注CFU数量需有检测报告支撑",
+    "usage_example": "每份含500亿CFU活性益生菌"
+  },
+  {
+    "id": "term_008",
+    "term": "GMP认证",
+    "english": "Good Manufacturing Practice",
+    "definition": "良好生产规范认证，确保产品按质量标准生产",
+    "regulation_note": "需真实持有GMP认证才可声称",
+    "usage_example": "GMP认证工厂生产，品质有保障"
+  },
+  {
+    "id": "term_009",
+    "term": "第三方检测",
+    "english": "Third-party Testing",
+    "definition": "由独立实验室对产品进行的纯度、效力、安全性检测",
+    "regulation_note": "需真实进行第三方检测才可声称",
+    "usage_example": "每批次经第三方独立检测"
+  },
+  {
+    "id": "term_010",
+    "term": "全食物来源",
+    "english": "Whole Food Sourced",
+    "definition": "成分来源于完整食物而非合成",
+    "regulation_note": "需确保主要成分确实来源于全食物",
+    "usage_example": "全食物来源维生素，天然易吸收"
+  },
+  {
+    "id": "term_011",
+    "term": "协同配方",
+    "english": "Synergistic Formula",
+    "definition": "多种成分科学配比，相互作用增强效果",
+    "regulation_note": "可使用，但不得声称协同效应等于治愈效果",
+    "usage_example": "维生素D3+K2协同配方，促进钙吸收"
+  },
+  {
+    "id": "term_012",
+    "term": "吸收增强剂",
+    "english": "Absorption Enhancer",
+    "definition": "辅助提高主要成分吸收率的成分，如黑胡椒碱",
+    "regulation_note": "可使用，需有基本科学依据",
+    "usage_example": "添加黑胡椒碱，提升姜黄素吸收率"
+  }
+]

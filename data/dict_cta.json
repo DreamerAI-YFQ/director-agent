@@ -1,0 +1,134 @@
+[
+  {
+    "id": "cta_001",
+    "phrase": "点击下方链接",
+    "english": "Click the link below",
+    "type": "直接引导型",
+    "urgency": "低",
+    "best_placement": "视频结尾",
+    "example": "想试试？点击下方链接，限时8折",
+    "compliance_note": "确保链接有效，价格声明真实",
+    "effectiveness": 7.5
+  },
+  {
+    "id": "cta_002",
+    "phrase": "限时优惠",
+    "english": "Limited time offer",
+    "type": "紧迫型",
+    "urgency": "高",
+    "best_placement": "钩子后/结尾",
+    "example": "限时7天，新客立减$10",
+    "compliance_note": "必须真实限时，过期需下架声明",
+    "effectiveness": 8.8
+  },
+  {
+    "id": "cta_003",
+    "phrase": "评论区告诉我",
+    "english": "Tell me in the comments",
+    "type": "互动型",
+    "urgency": "低",
+    "best_placement": "视频中段/结尾",
+    "example": "你也有这个问题吗？评论区告诉我",
+    "compliance_note": "无特殊合规要求",
+    "effectiveness": 8.2
+  },
+  {
+    "id": "cta_004",
+    "phrase": "关注看更多",
+    "english": "Follow for more",
+    "type": "增长型",
+    "urgency": "低",
+    "best_placement": "视频结尾",
+    "example": "关注我，每天一个健康小知识",
+    "compliance_note": "无特殊合规要求",
+    "effectiveness": 7.0
+  },
+  {
+    "id": "cta_005",
+    "phrase": "先领券再下单",
+    "english": "Grab the coupon first",
+    "type": "利益驱动型",
+    "urgency": "中",
+    "best_placement": "产品展示后",
+    "example": "别急着下单，先领这个专属优惠券",
+    "compliance_note": "优惠券必须真实可用",
+    "effectiveness": 9.1
+  },
+  {
+    "id": "cta_006",
+    "phrase": "试试看",
+    "english": "Give it a try",
+    "type": "低门槛型",
+    "urgency": "低",
+    "best_placement": "功能说明后",
+    "example": "反正有退换保障，试试看呗",
+    "compliance_note": "退换保障需真实存在",
+    "effectiveness": 8.5
+  },
+  {
+    "id": "cta_007",
+    "phrase": "别人都在用",
+    "english": "Everyone's using it",
+    "type": "从众型",
+    "urgency": "中",
+    "best_placement": "功能说明后",
+    "example": "已经10万+人在用了，你还在等什么",
+    "compliance_note": "数据需真实可验证",
+    "effectiveness": 8.0
+  },
+  {
+    "id": "cta_008",
+    "phrase": "对比看看",
+    "english": "Compare and see",
+    "type": "理性驱动型",
+    "urgency": "低",
+    "best_placement": "成分对比后",
+    "example": "对比一下你手上的，看看成分表就知道了",
+    "compliance_note": "不得贬低特定竞品品牌",
+    "effectiveness": 8.3
+  },
+  {
+    "id": "cta_009",
+    "phrase": "加入购物车",
+    "english": "Add to cart",
+    "type": "直接转化型",
+    "urgency": "中",
+    "best_placement": "功能+价格后",
+    "example": "日常一瓶不到$1，加入购物车吧",
+    "compliance_note": "价格计算需真实准确",
+    "effectiveness": 7.8
+  },
+  {
+    "id": "cta_010",
+    "phrase": "私聊我",
+    "english": "DM me",
+    "type": "咨询转化型",
+    "urgency": "中",
+    "best_placement": "功能说明后/结尾",
+    "example": "不知道选哪个？私聊我帮你推荐",
+    "compliance_note": "需确保有客服承接能力",
+    "effectiveness": 8.6
+  },
+  {
+    "id": "cta_011",
+    "phrase": "现在下单",
+    "english": "Shop now",
+    "type": "直接转化型",
+    "urgency": "高",
+    "best_placement": "视频结尾/橱窗",
+    "example": "现在下单，今天发货",
+    "compliance_note": "发货承诺需真实可执行",
+    "effectiveness": 7.6
+  },
+  {
+    "id": "cta_012",
+    "phrase": "用我的码",
+    "english": "Use my code",
+    "type": "专属优惠型",
+    "urgency": "中",
+    "best_placement": "产品推荐后",
+    "example": "用我的码HEALTH20，额外打8折",
+    "compliance_note": "优惠码需真实有效",
+    "effectiveness": 9.0
+  }
+]

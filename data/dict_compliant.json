@@ -1,0 +1,112 @@
+[
+  {
+    "id": "rep_001",
+    "banned_word": "治愈",
+    "banned_english": "cure",
+    "replacements": [
+      {"word": "支持", "english": "support", "example": "支持你的免疫系统健康"},
+      {"word": "帮助", "english": "help", "example": "帮助你维持健康的睡眠模式"},
+      {"word": "促进", "english": "promote", "example": "促进身体自然恢复"}
+    ],
+    "category": "医疗声明→健康支持"
+  },
+  {
+    "id": "rep_002",
+    "banned_word": "治疗",
+    "banned_english": "treat",
+    "replacements": [
+      {"word": "缓解", "english": "soothe/ease", "example": "帮助缓解日常压力"},
+      {"word": "辅助", "english": "assist", "example": "辅助维持关节灵活"},
+      {"word": "调理", "english": "nourish/balance", "example": "帮助调理身体状态"}
+    ],
+    "category": "医疗声明→健康支持"
+  },
+  {
+    "id": "rep_003",
+    "banned_word": "预防",
+    "banned_english": "prevent",
+    "replacements": [
+      {"word": "守护", "english": "protect/defend", "example": "守护你的免疫防线"},
+      {"word": "增强抵抗力", "english": "strengthen defenses", "example": "帮助增强身体自然抵抗力"},
+      {"word": "支持...健康", "english": "support...health", "example": "支持心血管健康"}
+    ],
+    "category": "医疗声明→健康支持"
+  },
+  {
+    "id": "rep_004",
+    "banned_word": "保证",
+    "banned_english": "guarantee",
+    "replacements": [
+      {"word": "致力于", "english": "committed to", "example": "我们致力于品质"},
+      {"word": "用心", "english": "dedicated", "example": "用心做好每一瓶"},
+      {"word": "品质承诺", "english": "quality promise", "example": "品质承诺，值得信赖"}
+    ],
+    "category": "绝对化声明→品质表达"
+  },
+  {
+    "id": "rep_005",
+    "banned_word": "立即见效",
+    "banned_english": "instant results",
+    "replacements": [
+      {"word": "坚持使用", "english": "with consistent use", "example": "坚持使用感受变化"},
+      {"word": "逐步感受", "english": "gradually feel", "example": "逐步感受身体的积极变化"},
+      {"word": "日常积累", "english": "daily buildup", "example": "每天一点，积累好状态"}
+    ],
+    "category": "夸大宣传→真实表达"
+  },
+  {
+    "id": "rep_006",
+    "banned_word": "100%有效",
+    "banned_english": "100% effective",
+    "replacements": [
+      {"word": "精心配比", "english": "carefully formulated", "example": "精心配比的科学配方"},
+      {"word": "高效吸收", "english": "highly absorbable", "example": "高效吸收配方"},
+      {"word": "优质原料", "english": "premium ingredients", "example": "甄选优质天然原料"}
+    ],
+    "category": "绝对化声明→品质表达"
+  },
+  {
+    "id": "rep_007",
+    "banned_word": "替代药物",
+    "banned_english": "alternative to [drug]",
+    "replacements": [
+      {"word": "日常补充", "english": "daily supplement", "example": "作为日常营养补充"},
+      {"word": "健康搭档", "english": "health companion", "example": "你的健康生活搭档"},
+      {"word": "营养支持", "english": "nutritional support", "example": "提供基础营养支持"}
+    ],
+    "category": "医疗声明→健康支持"
+  },
+  {
+    "id": "rep_008",
+    "banned_word": "奇迹",
+    "banned_english": "miracle",
+    "replacements": [
+      {"word": "惊喜发现", "english": "surprising discovery", "example": "一个让你惊喜的发现"},
+      {"word": "令人信赖的变化", "english": "trustworthy change", "example": "感受令人信赖的身体变化"},
+      {"word": "真实体验", "english": "real experience", "example": "来自真实用户的体验分享"}
+    ],
+    "category": "夸大宣传→真实表达"
+  },
+  {
+    "id": "rep_009",
+    "banned_word": "最好的",
+    "banned_english": "the best",
+    "replacements": [
+      {"word": "优选", "english": "preferred choice", "example": "10万家庭的优选"},
+      {"word": "值得信赖", "english": "trusted", "example": "值得信赖的品牌"},
+      {"word": "用心之选", "english": "thoughtful choice", "example": "你健康生活的用心之选"}
+    ],
+    "category": "绝对化声明→品质表达"
+  },
+  {
+    "id": "rep_010",
+    "banned_word": "无副作用",
+    "banned_english": "no side effects",
+    "replacements": [
+      {"word": "温和配方", "english": "gentle formula", "example": "温和配方，适合日常使用"},
+      {"word": "天然来源", "english": "naturally sourced", "example": "天然来源成分"},
+      {"word": "身体友好", "english": "body-friendly", "example": "身体友好的温和配方"}
+    ],
+    "category": "未经证实声明→品质表达"
+  }
+]

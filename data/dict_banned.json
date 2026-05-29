@@ -1,0 +1,182 @@
+[
+  {
+    "id": "ban_001",
+    "word": "治愈",
+    "english": "cure",
+    "category": "医疗声明",
+    "risk_level": "P0",
+    "reason": "FDA禁止保健品声称治愈任何疾病",
+    "regulation": "FDA 21 CFR 101.93",
+    "examples": ["治愈你的失眠", "治愈关节疼痛", "cure your insomnia"]
+  },
+  {
+    "id": "ban_002",
+    "word": "治疗",
+    "english": "treat/treatment",
+    "category": "医疗声明",
+    "risk_level": "P0",
+    "reason": "保健品不得声称治疗疾病",
+    "regulation": "FDA 21 CFR 101.93",
+    "examples": ["治疗你的焦虑", "治疗慢性疲劳", "treat your anxiety"]
+  },
+  {
+    "id": "ban_003",
+    "word": "处方",
+    "english": "prescription",
+    "category": "医疗声明",
+    "risk_level": "P0",
+    "reason": "暗示产品等同于处方药",
+    "regulation": "FDA DSHEA",
+    "examples": ["天然处方", "不需要处方", "natural prescription"]
+  },
+  {
+    "id": "ban_004",
+    "word": "临床证明",
+    "english": "clinically proven",
+    "category": "未经证实声明",
+    "risk_level": "P1",
+    "reason": "除非有真实临床试验数据，否则不得使用",
+    "regulation": "FTC Advertising Guidelines",
+    "examples": ["临床证明有效", "clinically proven to work"]
+  },
+  {
+    "id": "ban_005",
+    "word": "100%",
+    "english": "100%",
+    "category": "绝对化声明",
+    "risk_level": "P1",
+    "reason": "绝对化声称违反FTC广告指南",
+    "regulation": "FTC Act Section 5",
+    "examples": ["100%有效", "100%纯天然", "100% guaranteed"]
+  },
+  {
+    "id": "ban_006",
+    "word": "保证",
+    "english": "guarantee",
+    "category": "绝对化声明",
+    "risk_level": "P1",
+    "reason": "除非有退款保证机制，否则不得声称效果保证",
+    "regulation": "FTC Act Section 5",
+    "examples": ["保证让你瘦", "guaranteed results", "效果保证"]
+  },
+  {
+    "id": "ban_007",
+    "word": "替代药物",
+    "english": "alternative to [drug]",
+    "category": "医疗声明",
+    "risk_level": "P0",
+    "reason": "暗示产品可替代处方药",
+    "regulation": "FDA DSHEA",
+    "examples": ["天然替代布洛芬", "alternative to ibuprofen"]
+  },
+  {
+    "id": "ban_008",
+    "word": "诊断",
+    "english": "diagnose",
+    "category": "医疗声明",
+    "risk_level": "P0",
+    "reason": "保健品不得涉及诊断功能",
+    "regulation": "FDA 21 CFR 101.93",
+    "examples": ["帮你诊断营养缺乏", "diagnose your deficiency"]
+  },
+  {
+    "id": "ban_009",
+    "word": "预防",
+    "english": "prevent",
+    "category": "医疗声明",
+    "risk_level": "P0",
+    "reason": "保健品不得声称预防疾病，只能说'支持'健康",
+    "regulation": "FDA 21 CFR 101.93",
+    "examples": ["预防感冒", "prevent illness", "预防骨质疏松"]
+  },
+  {
+    "id": "ban_010",
+    "word": "奇迹",
+    "english": "miracle",
+    "category": "夸大宣传",
+    "risk_level": "P1",
+    "reason": "夸大效果，违反FTC真实性原则",
+    "regulation": "FTC Act Section 5",
+    "examples": ["奇迹般的效果", "miracle cure", "奇迹产品"]
+  },
+  {
+    "id": "ban_011",
+    "word": "特效",
+    "english": "special effect/quick fix",
+    "category": "夸大宣传",
+    "risk_level": "P1",
+    "reason": "暗示有特殊/快速疗效，属于夸大宣传",
+    "regulation": "FTC Act Section 5",
+    "examples": ["特效减肥", "quick fix for weight loss"]
+  },
+  {
+    "id": "ban_012",
+    "word": "立即见效",
+    "english": "instant results",
+    "category": "夸大宣传",
+    "risk_level": "P1",
+    "reason": "保健品通常需要持续使用，'立即'属于不实声明",
+    "regulation": "FTC Act Section 5",
+    "examples": ["立即见效", "instant results", "马上就有效"]
+  },
+  {
+    "id": "ban_013",
+    "word": "减肥药",
+    "english": "weight loss drug/pill",
+    "category": "产品定位",
+    "risk_level": "P0",
+    "reason": "保健品不是药物，不能称为'药'",
+    "regulation": "FDA DSHEA",
+    "examples": ["天然减肥药", "weight loss pill"]
+  },
+  {
+    "id": "ban_014",
+    "word": "FDA批准",
+    "english": "FDA approved",
+    "category": "虚假声明",
+    "risk_level": "P0",
+    "reason": "FDA不'批准'保健品，只'备案'，声称批准属于虚假宣传",
+    "regulation": "FDA DSHEA",
+    "examples": ["FDA批准的产品", "FDA approved supplement"]
+  },
+  {
+    "id": "ban_015",
+    "word": "无副作用",
+    "english": "no side effects",
+    "category": "未经证实声明",
+    "risk_level": "P1",
+    "reason": "除非有临床证据，否则不能声称无副作用",
+    "regulation": "FTC Advertising Guidelines",
+    "examples": ["完全没有副作用", "no side effects at all"]
+  },
+  {
+    "id": "ban_016",
+    "word": "最好的",
+    "english": "the best/#1",
+    "category": "绝对化声明",
+    "risk_level": "P1",
+    "reason": "最高级声称需有可验证依据",
+    "regulation": "FTC Act Section 5",
+    "examples": ["市面上最好的", "the best on the market", "#1 supplement"]
+  },
+  {
+    "id": "ban_017",
+    "word": "科学突破",
+    "english": "scientific breakthrough",
+    "category": "夸大宣传",
+    "risk_level": "P2",
+    "reason": "除非有真实发表的论文支撑，否则属于夸大",
+    "regulation": "FTC Advertising Guidelines",
+    "examples": ["科学突破性发现", "scientific breakthrough"]
+  },
+  {
+    "id": "ban_018",
+    "word": "永久",
+    "english": "permanent",
+    "category": "绝对化声明",
+    "risk_level": "P1",
+    "reason": "健康效果通常不可永久保证",
+    "regulation": "FTC Act Section 5",
+    "examples": ["永久解决", "permanent results", "永久改善"]
+  }
+]

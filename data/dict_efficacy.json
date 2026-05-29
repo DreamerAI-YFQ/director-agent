@@ -1,0 +1,138 @@
+[
+  {
+    "id": "eff_001",
+    "category": "免疫支持",
+    "english_category": "Immune Support",
+    "compliant_phrases": [
+      "守护你的免疫防线",
+      "支持免疫系统健康运作",
+      "帮助增强身体自然抵抗力",
+      "为你的免疫加油",
+      "support your immune defense",
+      "help strengthen your body's natural defenses"
+    ],
+    "banned_phrases": ["预防感冒", "不生病", "杀死病毒", "prevent colds", "never get sick"],
+    "common_ingredients": ["Vitamin C", "Zinc", "Elderberry", "Vitamin D3", "Echinacea"],
+    "emotional_angles": ["守护感", "安心感", "力量感"],
+    "trending_hooks": ["换季必备", "全家守护", "每天一小步，健康一大步"]
+  },
+  {
+    "id": "eff_002",
+    "category": "睡眠支持",
+    "english_category": "Sleep Support",
+    "compliant_phrases": [
+      "帮助你安然入睡",
+      "促进健康睡眠模式",
+      "让你醒来精神焕发",
+      "支持自然睡眠周期",
+      "help you fall asleep naturally",
+      "promote healthy sleep patterns"
+    ],
+    "banned_phrases": ["治疗失眠", "安眠药替代", "cure insomnia", "sleep aid replacement"],
+    "common_ingredients": ["Magnesium", "Melatonin", "L-Theanine", "Ashwagandha", "Valerian Root"],
+    "emotional_angles": ["宁静感", "被拥抱感", "晨光感"],
+    "trending_hooks": ["睡不好=老得快", "3秒入睡的秘密", "告别辗转反侧"]
+  },
+  {
+    "id": "eff_003",
+    "category": "压力管理",
+    "english_category": "Stress Management",
+    "compliant_phrases": [
+      "帮助你应对日常压力",
+      "支持身心平衡",
+      "让你在忙碌中保持从容",
+      "促进放松与专注",
+      "help you manage daily stress",
+      "support mental balance"
+    ],
+    "banned_phrases": ["治疗焦虑", "抗抑郁", "消除压力", "treat anxiety", "eliminate stress"],
+    "common_ingredients": ["Ashwagandha", "Rhodiola", "L-Theanine", "Magnesium", "Holy Basil"],
+    "emotional_angles": ["从容感", "掌控感", "轻盈感"],
+    "trending_hooks": ["压力正在偷走你的健康", "一杯找回自己", "别让压力定义你"]
+  },
+  {
+    "id": "eff_004",
+    "category": "关节支持",
+    "english_category": "Joint Support",
+    "compliant_phrases": [
+      "支持关节灵活运动",
+      "帮助你保持活力生活",
+      "促进关节舒适度",
+      "支持运动后的身体恢复",
+      "support joint flexibility",
+      "help maintain comfortable movement"
+    ],
+    "banned_phrases": ["治愈关节炎", "消除关节痛", "cure arthritis", "eliminate joint pain"],
+    "common_ingredients": ["Curcumin", "Glucosamine", "Chondroitin", "MSM", "Boswellia"],
+    "emotional_angles": ["自由感", "活力感", "无拘感"],
+    "trending_hooks": ["别让关节限制你", "50岁依然跑5公里", "每一步都轻盈"]
+  },
+  {
+    "id": "eff_005",
+    "category": "消化健康",
+    "english_category": "Digestive Health",
+    "compliant_phrases": [
+      "支持消化系统舒适",
+      "帮助营养更好吸收",
+      "促进肠道健康环境",
+      "让你吃得安心",
+      "support digestive comfort",
+      "promote healthy gut environment"
+    ],
+    "banned_phrases": ["治疗胃炎", "治愈肠漏", "cure IBS", "heal leaky gut"],
+    "common_ingredients": ["Probiotics", "Digestive Enzymes", "Prebiotics", "Ginger", "Peppermint"],
+    "emotional_angles": ["轻松感", "信任感", "舒适感"],
+    "trending_hooks": ["你的肠子在决定你的状态", "肚子舒服=人舒服", "从'肠'计议"]
+  },
+  {
+    "id": "eff_006",
+    "category": "能量活力",
+    "english_category": "Energy & Vitality",
+    "compliant_phrases": [
+      "帮助维持全天精力",
+      "支持身体自然能量产生",
+      "让你从早到晚保持状态",
+      "促进活力恢复",
+      "help sustain all-day energy",
+      "support natural energy production"
+    ],
+    "banned_phrases": ["比咖啡更提神", "永久精力充沛", "better than coffee", "endless energy"],
+    "common_ingredients": ["B-Complex", "CoQ10", "Maca", "Iron", "Rhodiola"],
+    "emotional_angles": ["充沛感", "自信感", "掌控感"],
+    "trending_hooks": ["下午3点不犯困", "告别电量不足", "你的能量不该只有20%"]
+  },
+  {
+    "id": "eff_007",
+    "category": "皮肤美容",
+    "english_category": "Skin & Beauty",
+    "compliant_phrases": [
+      "支持皮肤弹性与光泽",
+      "帮助维持年轻态肌肤",
+      "促进头发和指甲健康",
+      "让你从内而外焕发光彩",
+      "support skin elasticity and radiance",
+      "help maintain youthful-looking skin"
+    ],
+    "banned_phrases": ["抗衰老", "消除皱纹", "anti-aging cure", "erase wrinkles"],
+    "common_ingredients": ["Collagen", "Biotin", "Hyaluronic Acid", "Vitamin C", "Astaxanthin"],
+    "emotional_angles": ["自信感", "光采感", "珍惜感"],
+    "trending_hooks": ["你的皮肤在向你求救", "素颜也发光", "别等照镜子才后悔"]
+  },
+  {
+    "id": "eff_008",
+    "category": "心血管健康",
+    "english_category": "Cardiovascular Health",
+    "compliant_phrases": [
+      "支持心脏健康运作",
+      "帮助维持健康胆固醇水平",
+      "促进血液循环",
+      "守护你的心血管",
+      "support heart health",
+      "help maintain healthy cholesterol levels"
+    ],
+    "banned_phrases": ["预防心脏病", "降血压", "prevent heart disease", "lower blood pressure"],
+    "common_ingredients": ["Omega-3", "CoQ10", "Garlic Extract", "Nattokinase", "Berberine"],
+    "emotional_angles": ["安心感", "责任感", "长远感"],
+    "trending_hooks": ["心脏不会说话", "你的心脏值得更好的", "30岁的心60岁的心脏？"]
+  }
+]

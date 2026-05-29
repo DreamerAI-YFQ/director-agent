@@ -1,0 +1,86 @@
+[
+  {
+    "id": "aud_001",
+    "label": "高压职场人",
+    "english": "Stressed Professional",
+    "demographics": "25-45岁，都市白领，长工时",
+    "pain_points": ["睡眠不足", "精力不够", "压力山大", "没时间健身"],
+    "language_style": "简洁直接，喜欢数据支撑，反感鸡汤",
+    "hook_preferences": ["对比型", "痛点共鸣型", "时间效率型"],
+    "products_fit": ["Ashwagandha", "Magnesium", "B-Complex", "L-Theanine"],
+    "avoid_words": ["轻松", "慢生活", "停下来"],
+    "engage_words": ["效率", "状态", "精力管理", "peak performance"]
+  },
+  {
+    "id": "aud_002",
+    "label": "健康焦虑妈妈",
+    "english": "Health-Conscious Mom",
+    "demographics": "28-45岁，有孩子，关注全家健康",
+    "pain_points": ["孩子总生病", "家人营养不均衡", "自己没精力", "信息太多不知道信谁"],
+    "language_style": "温暖关心，喜欢故事性内容，重视安全感",
+    "hook_preferences": ["故事型", "亲子情感型", "权威推荐型"],
+    "products_fit": ["Probiotics", "Vitamin D3", "Elderberry", "Multivitamin"],
+    "avoid_words": ["实验", "数据", "技术"],
+    "engage_words": ["守护", "全家", "安心", "天然", "safe for the whole family"]
+  },
+  {
+    "id": "aud_003",
+    "label": "健身爱好者",
+    "english": "Fitness Enthusiast",
+    "demographics": "22-38岁，规律健身，关注身材管理",
+    "pain_points": ["运动恢复慢", "肌肉酸痛", "补剂选择困难", "体重管理"],
+    "language_style": "专业感，喜欢成分分析，追求性价比",
+    "hook_preferences": ["数据型", "前后对比型", "专家背书型"],
+    "products_fit": ["Protein", "Collagen", "Curcumin", "Magnesium", "Creatine"],
+    "avoid_words": ["轻松减肥", "躺着瘦"],
+    "engage_words": ["恢复", "表现", "成分", "clinical dose", "gains"]
+  },
+  {
+    "id": "aud_004",
+    "label": "银发健康族",
+    "english": "Active Senior",
+    "demographics": "50-70岁，关注长寿和活力",
+    "pain_points": ["关节不灵活", "记忆力下降", "睡眠不好", "心血管关注"],
+    "language_style": "尊重体贴，大字慢速，简单明了，重视权威",
+    "hook_preferences": ["关怀型", "生活品质型", "医生推荐型"],
+    "products_fit": ["Omega-3", "Vitamin D3+K2", "Glucosamine", "CoQ10"],
+    "avoid_words": ["老了", "不行了", "decline"],
+    "engage_words": ["活力", "年轻态", "品质生活", "active lifestyle", "vitality"]
+  },
+  {
+    "id": "aud_005",
+    "label": "Z世代养生党",
+    "english": "Gen Z Wellness Seeker",
+    "demographics": "18-28岁，社交媒体原住民，潮流敏感",
+    "pain_points": ["焦虑", "皮肤问题", "睡眠不好", "信息过载"],
+    "language_style": "潮流网感，短平快，喜欢emoji和梗",
+    "hook_preferences": ["反转型", "震惊型", "挑战型"],
+    "products_fit": ["Ashwagandha", "Collagen", "Probiotics", "Maca"],
+    "avoid_words": ["传统", "老派", "无聊"],
+    "engage_words": ["自我疗愈", "inner peace", "glow up", "hack your body"]
+  },
+  {
+    "id": "aud_006",
+    "label": "护肤进阶女性",
+    "english": "Beauty-Forward Woman",
+    "demographics": "25-40岁，注重内调外养，愿意为美投资",
+    "pain_points": ["皮肤暗沉", "衰老焦虑", "头发稀疏", "身材管理"],
+    "language_style": "精致感，喜欢对比和见证，重视审美",
+    "hook_preferences": ["变美见证型", "对比前后型", "成分科普型"],
+    "products_fit": ["Collagen", "Biotin", "Hyaluronic Acid", "Astaxanthin"],
+    "avoid_words": ["便宜", "将就", "差不多"],
+    "engage_words": ["焕新", "光芒", "由内而外", "glow from within", "radiance"]
+  },
+  {
+    "id": "aud_007",
+    "label": "远程办公族",
+    "english": "Remote Worker",
+    "demographics": "25-40岁，居家办公，久坐少动",
+    "pain_points": ["腰背疼痛", "眼疲劳", "作息混乱", "孤独感"],
+    "language_style": "幽默自嘲，喜欢引发共鸣的内容",
+    "hook_preferences": ["日常共鸣型", "反讽型", "偷懒技巧型"],
+    "products_fit": ["Vitamin D3", "Omega-3", "Eye Health", "Magnesium"],
+    "avoid_words": ["自律", "早起", "努力"],
+    "engage_words": ["hack", "优化", "居家必备", "desk essentials"]
+  }
+]

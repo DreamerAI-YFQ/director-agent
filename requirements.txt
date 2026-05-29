@@ -1,0 +1,23 @@
+# === AI 编导 Agent - Python 依赖 ===
+# 锁定已知可工作的版本组合
+# 安装: pip install -r requirements.txt
+
+# API 调用
+anthropic==0.104.1          # Claude SDK（通过DeepSeek代理）
+claude-agent-sdk==0.2.87    # Claude Code/Agent SDK runtime（可选切换）
+google-genai==2.6.0         # Gemini SDK（AI Studio）
+openai==2.36.0              # OpenAI兼容客户端（QwenVL百炼）
+
+# 配置
+python-dotenv==1.2.2        # 环境变量管理
+
+# 数据库
+psycopg2-binary==2.9.12     # PostgreSQL 连接器
+
+# Web框架
+fastapi==0.136.1            # REST API 框架
+websockets==16.0            # WebSocket 支持
+uvicorn==0.38.0             # ASGI server
+
+# 测试
+pytest==9.0.2               # 单元测试
